@@ -1,17 +1,17 @@
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-  Link
-} from "react-router-dom"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Index from "./routes/Index";
+import Error from "./routes/Error";
 
 function App() {
-  <BrowserRouter>
-  <Routes>
-    <Route path="/" element={}/>
-    <Route path="*" element={}/>
-  </Routes>
-  </BrowserRouter>
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Index />} />
+        <Route path="*" element={<Error />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
