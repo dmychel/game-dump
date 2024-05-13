@@ -1,11 +1,95 @@
 :root {
     --background: #282A36;
+    --secondary: #44475A;
+    --third: #6272A4;
     --accent: #50FA7B;
     --font-color: #F8F8F2;
     --font-accent: #8BE9FD;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    display: block;
     background-color: var(--background);
     color: var(--font-color);
+}
+
+header {
+    background-color: var(--secondary);
+    padding: 10px;
+    font-size: 0.75rem;
+}
+
+nav {
+    background-color: var(--accent);
+    position: fixed;
+    height: 5vh;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+nav a {
+    color: var(--background);
+}
+
+.content {
+    margin-top: 5%;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 5px;
+    background-color: var(--third);
+}
+
+.post-content p {
+    background-color: var(--secondary);
+    padding: 10px;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+}
+
+.interactive {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.interactive ul {
+display: flex;
+justify-content: space-between;
+}
+
+.comment {
+    padding: 10px;
+    background-color: var(--secondary);
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
