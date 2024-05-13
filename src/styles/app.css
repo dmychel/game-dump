@@ -59,6 +59,10 @@ nav a {
     background-color: var(--third);
 }
 
+.post:last-child {
+    margin-bottom: 15%;
+}
+
 .post-content p {
     background-color: var(--secondary);
     padding: 10px;
