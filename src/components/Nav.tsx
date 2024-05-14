@@ -5,13 +5,19 @@ export default function Nav() {
     <nav>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">
+            <img src="/assets/house.png" />
+          </Link>
         </li>
         <li>
-          <Link to="/">Post</Link>
+          <Link to="/">
+            <img src="/assets/more.png" />
+          </Link>
         </li>
         <li>
-          <Link to="/profile">Profile</Link>
+          <Link to="/profile">
+            <img src="/assets/user.png" />
+          </Link>
         </li>
       </ul>
     </nav>
