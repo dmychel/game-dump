@@ -10,7 +10,7 @@ export default function Nav() {
           </Link>
         </li>
         <li>
-          <Link to="/">
+          <Link to="/post">
             <img src="/assets/more.png" />
           </Link>
         </li>
