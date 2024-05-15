@@ -30,49 +30,6 @@ header {
   max-width: 40rem;
   width: 100%;
 }
-
-nav {
-  background-color: var(--accent);
-  position: fixed;
-  height: 10%;
-  bottom: 0;
-  left: 50;
-  max-width: 40rem;
-  width: 100%;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-nav ul {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-}
-
-nav ul li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-nav a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-nav a img {
-  width: 55%;
-  height: auto;
-}
-
-nav a {
-  color: var(--background);
-}
-
 .content {
   margin-top: 5%;
 }
