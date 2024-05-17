@@ -20,172 +20,38 @@ body {
   margin: auto;
 }
 
-header {
-  background-color: var(--secondary);
-  padding: 10px;
-  font-size: 0.75rem;
+/* header and nav styling */
+header,
+nav {
+  height: 10vh;
+  width: 100%;
+  background-color: yellow;
   position: fixed;
-  left: 50;
+}
+
+header {
   top: 0;
-  max-width: 40rem;
-  width: 100%;
-}
-.content {
-  margin-top: 5%;
 }
 
-.content:first-child {
-  margin: 0;
-}
-
-.post {
+nav {
+  bottom: 0;
   display: flex;
-  flex-direction: column;
-  gap: 15px;
-  padding: 5px;
-  background-color: var(--third);
+  justify-content: space-around;
+  align-items: center;
 }
 
-.post:first-child {
-  margin-top: 15%;
-}
-
-.post:last-child {
-  margin-bottom: 15%;
-}
-
-.post-content p {
-  background-color: var(--secondary);
-  padding: 10px;
-}
-
-.post img {
-  width: 100%;
+nav img {
+  width: 80%;
   height: auto;
 }
 
-.interactive {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
+/* global */
 
-.interactive ul {
-  display: flex;
-  justify-content: space-between;
-}
-
-.comment {
-  padding: 10px;
-  background-color: var(--secondary);
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-/* profile */
-.profile {
-  height: 100%;
-  width: 100%;
-}
-
-.prof-background {
-  width: 100%;
-}
-
-.prof-background img {
-  width: 100%;
-}
-
-.user-info {
-  width: 100%;
-}
-
-.info-wrapper {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-}
-
-.user-info img {
-  width: 100%;
-}
-
-.info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 30%;
-}
-
-.info-left img {
-  width: 80%;
-  border-radius: 100%;
-}
-
-.info-mid {
-  display: flex;
-  flex-direction: column;
-}
-
-.user-about {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
+section {
+  margin-top: 10vh;
   padding: 1em;
 }
 
-.user-about button {
-  width: fit-content;
-  padding: 0.5em;
-}
-
-.profile-img {
-  width: 30%;
-}
-
-.profile-img img {
-  width: 30%;
-  border-radius: 100%;
-}
-
-/* games */
-.profile-games {
-  max-width: 100vw;
-}
-
-.games {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: var(--secondary);
-  padding: 0.5em;
-}
-
-.games-container {
+.content {
   margin-top: 5%;
-}
-
-.games:last-child {
-  margin-bottom: 15%;
-}
-
-.game-img,
-.game-title {
-  width: 35%;
-}
-
-.game-img img {
-  width: 100%;
-}
-
-.new-post {
-  overflow-y: hidden;
-  margin-top: 15%;
-  height: 100vh;
 }
