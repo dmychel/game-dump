@@ -1,28 +1,24 @@
 export default function ProfileHeader() {
   return (
     <>
-      <div className="prof-background">
+      <div>
         <img src="https://fakeimg.pl/1600x900" alt="" />
       </div>
-      <div className="user-info content">
-        <div className="info-wrapper">
-          <div className="info-left info">
-            <img
-              src="https://fakeimg.pl/500x500"
-              alt=""
-              className="profile-img"
-            />
+      <div>
+        <div>
+          <div>
+            <img src="https://fakeimg.pl/500x500" alt="" />
           </div>
 
-          <div className="info-mid info">
+          <div>
             <h3>Username</h3>
             <p>Online</p>
           </div>
-          <div className="info-right info">
+          <div>
             <img src="https://fakeimg.pl/1000x500" alt="" />
           </div>
         </div>
-        <div className="user-about">
+        <div>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus
             illum explicabo labore deserunt ab exercitationem error accusantium
