@@ -2,11 +2,11 @@ import Games from "./Games";
 
 export default function ProfileGames() {
   return (
-    <div className="profile-games">
-      <div className="game-header">
+    <div>
+      <div>
         <h3>Recent Games</h3>
       </div>
-      <div className="games-container">
+      <div>
         <Games />
         <Games />
         <Games />
