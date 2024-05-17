@@ -1,32 +1,39 @@
+import styles from "/src/styles/modules/posts/post.module.css";
+
 interface props {
   type: boolean;
 }
 
 export default function Post({ type }: props) {
   return (
-    <div className="post content">
-      <div className="user">
-        <h3>Username</h3>
-      </div>
-      <div className="post-content">
-        {type ? (
-          <img src="https://placehold.co/600x400" alt="" />
-        ) : (
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem
-            dolores maxime recusandae similique earum ipsa facere ratione! Omnis
-            provident nostrum dolor dignissimos adipisci! Explicabo, quis?
-            Consequuntur ab neque saepe quaerat!
-          </p>
-        )}
-      </div>
-      <div className="interactive">
-        <ul>
-          <li>Like</li>
-          <li>save</li>
-        </ul>
-        <div className="comment">Add a comment</div>
-      </div>
+    <div className={styles.post}>
+      {type ? (
+        <>
+          <div className={styles.post_img}>
+            <img src="https://fakeimg.pl/1600x900" alt="" />
+          </div>
+          <div className={styles.user_img}>
+            <img src="https://fakeimg.pl/50x50" alt="" />
+          </div>
+          <div className={styles.post_text}>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </>
+      ) : (
+        <>
+          <div className={styles.user_img}>
+            <img src="https://fakeimg.pl/50x50" alt="" />
+          </div>
+          <div className={styles.post_text}>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum
+              maxime veritatis qui distinctio laboriosam placeat, adipisci
+              fugiat eum modi perferendis blanditiis labore reiciendis dolores,
+              nemo vel tenetur officiis. Beatae, minus!
+            </p>
+          </div>
+        </>
+      )}
     </div>
   );
 }
