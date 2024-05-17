@@ -1,6 +1,6 @@
 export default function Post() {
   return (
-    <div className="new-post">
+    <div>
       <form>
         <input type="text" placeholder="Text here" />
       </form>
