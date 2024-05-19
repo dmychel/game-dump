@@ -1,9 +1,12 @@
 import styles from "/src/styles/modules/newPost.module.css";
+import { Link } from "react-router-dom";
 
 export default function NewPost() {
   return (
     <section className={styles.new_post}>
-      <button className={styles.cancel}>&#10006;</button>
+      <Link className={styles.cancel} to="/">
+        &#10006;
+      </Link>
       <form>
         <input type="text" placeholder="title" className={styles.title} />
         <textarea placeholder="Text here" className={styles.comment} />
