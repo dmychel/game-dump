@@ -10,16 +10,18 @@ import NewPost from "./routes/NewPost";
 function App() {
   return (
     <BrowserRouter>
-      <Header />
-      <main>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/profile" element={<Profile />} />
-          <Route path="/post" element={<NewPost />} />
-          <Route path="*" element={<Error />} />
-        </Routes>
-      </main>
-      <Nav />
+      <div className="app">
+        <Header />
+        <main>
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/profile" element={<Profile />} />
+            <Route path="/post" element={<NewPost />} />
+            <Route path="*" element={<Error />} />
+          </Routes>
+        </main>
+        <Nav />
+      </div>
     </BrowserRouter>
   );
 }
