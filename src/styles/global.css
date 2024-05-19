@@ -20,7 +20,7 @@ body {
   display: block;
   background-color: var(--background);
   color: var(--font-color);
-  max-width: 40rem;
+  max-width: 50rem;
   margin: auto;
   border: 1px solid var(--accent);
 }
@@ -30,7 +30,7 @@ header,
 nav {
   height: 8vh;
   width: 100%;
-  max-width: 40rem;
+  max-width: 50rem;
   background-color: var(--accent);
   position: fixed;
 }
