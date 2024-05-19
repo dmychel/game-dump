@@ -1,4 +1,5 @@
 .header {
+  position: relative;
   border: 2px solid yellow;
 }
 
@@ -9,4 +10,23 @@
 .profile_background img {
   width: 100%;
   object-fit: cover;
+}
+
+.user_image {
+  top: 80%;
+  width: fit-content;
+  position: absolute;
+}
+
+.user_image img {
+  border: 7px solid green;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.user_info {
+  display: flex;
+  justify-content: right;
+  border: 1px solid;
+  width: 50%;
 }
