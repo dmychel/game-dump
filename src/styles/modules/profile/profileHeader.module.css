@@ -18,7 +18,7 @@
 }
 
 .user_image img {
-  border: 7px solid green;
+  border: 7px solid var(--font-accent);
   width: 100%;
   border-radius: 100%;
 }

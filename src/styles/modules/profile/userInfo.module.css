@@ -9,10 +9,13 @@
 
 .bio {
   padding: 8px;
-  background-color: gray;
+  background-color: var(--third);
 }
 
 button {
   width: fit-content;
   justify-content: right;
+  border: 1px solid var(--accent);
+  background-color: var(--secondary);
+  color: var(--accent);
 }

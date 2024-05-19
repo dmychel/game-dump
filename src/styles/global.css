@@ -1,8 +1,8 @@
 :root {
-  --background: #282a36;
-  --secondary: #44475a;
-  --third: #6272a4;
-  --accent: #50fa7b;
+  --background: #041133;
+  --secondary: #023583;
+  --third: #853987;
+  --accent: #fe0060;
   --font-color: #f8f8f2;
   --font-accent: #8be9fd;
 }
@@ -12,12 +12,17 @@
   padding: 0;
 }
 
+html {
+  background-color: #020a1f;
+}
+
 body {
   display: block;
   background-color: var(--background);
   color: var(--font-color);
   max-width: 40rem;
   margin: auto;
+  border: 1px solid var(--accent);
 }
 
 /* header and nav styling */
@@ -25,7 +30,8 @@ header,
 nav {
   height: 8vh;
   width: 100%;
-  background-color: black;
+  max-width: 40rem;
+  background-color: var(--accent);
   position: fixed;
 }
 
@@ -52,8 +58,7 @@ nav img {
 /* global */
 
 section {
-  margin-top: 10vh;
-  padding: 1em;
+  padding: 10vh 1em;
 }
 
 .profile {
