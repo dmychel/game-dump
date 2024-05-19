@@ -1,0 +1,40 @@
+.new_post {
+  border: 3px solid purple;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  height: 80vh;
+}
+
+button {
+  padding: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 1em;
+}
+
+.cancel {
+  background-color: red;
+  border: none;
+  height: 2rem;
+  width: 2rem;
+  color: white;
+}
+
+.title {
+  width: 20%;
+  padding: 8px;
+}
+
+.comment {
+  padding: 8px;
+  min-height: 70%;
+}
+
+.add_file {
+  width: fit-content;
+}
