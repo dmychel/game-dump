@@ -17,11 +17,16 @@ form {
 }
 
 .cancel {
-  background-color: red;
-  border: none;
+  width: fit-content;
   height: 2rem;
   width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  border: none;
   color: white;
+  text-decoration: none;
 }
 
 .title {
