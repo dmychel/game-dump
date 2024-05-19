@@ -30,3 +30,10 @@
   border: 1px solid;
   width: 50%;
 }
+
+@media screen and (min-width: 648px) {
+  .user_image {
+    width: 15%;
+    top: 85%;
+  }
+}
