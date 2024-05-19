@@ -13,6 +13,7 @@
 
 .user_image {
   top: 80%;
+  left: 2%;
   width: fit-content;
   position: absolute;
 }
