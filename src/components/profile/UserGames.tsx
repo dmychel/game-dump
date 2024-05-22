@@ -7,12 +7,12 @@ export default function ProfileGames() {
     <div className={styles.user_games}>
       <div className={styles.games_header}>
         <h3>Users Games</h3>
-        <Link to="/profile">32 Games</Link>
+        <Link to="/all-games">32 Games</Link>
       </div>
       <div className={styles.games}>
-        <Games />
-        <Games />
-        <Games />
+        <Games title={"Game Title"} cover={"https://fakeimg.pl/1600x900"} />
+        <Games title={"Game Title"} cover={"https://fakeimg.pl/1600x900"} />
+        <Games title={"Game Title"} cover={"https://fakeimg.pl/1600x900"} />
       </div>
     </div>
   );
