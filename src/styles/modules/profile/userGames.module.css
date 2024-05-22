@@ -1,6 +1,7 @@
 .user_games {
   padding: 1em;
 }
+
 .games_header {
   display: flex;
   justify-content: space-between;
@@ -25,21 +26,38 @@
   align-items: center;
   justify-content: space-between;
   background-color: var(--secondary);
+  height: 15vh;
 }
 
 .game_image {
-  width: 40%;
+  display: flex;
+  height: 100%;
+  width: 80%;
 }
 
 .game_image img {
+  object-fit: cover;
   width: 100%;
 }
 
-.game_title {
-  width: 100%;
+.call_action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 30%;
+  background-color: var(--accent);
+}
+
+.call_action button {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  width: 5vh;
+  height: 5vh;
+  font-size: 1.5rem;
+  border-radius: 100%;
 }
 
 .user_games:last-child {
